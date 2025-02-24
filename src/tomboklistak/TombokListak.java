@@ -78,6 +78,35 @@ public class TombokListak {
         
         // Konkrét értékek az indexen
         String[] szsvak2 = {"alma", "korte", "eper"};
+        
+        // Tömbök 2D - mátrixok/táblázatok
+        //Létrehozása
+        int [][] matrix = new int [3][3]; // [sor] [oszlop] 3x3
+        int [][] matrix2 = {
+            {1,2,3},
+            {4,5,6},
+            {7,8,9}
+        }; // 3x3 konkrét elemekkel
+        // [0] [0] = 1      [0] [1] = 2     [0][2] = 3
+        // [1] [0] = 4      [1] [1] = 5     [1][2] = 6
+        // [2] [0] = 7      [2] [1] = 8     [2][2] = 9
+        
+        // Sorok számának lekérdezése
+        int sor = matrix2.length;
+        // Oszlopok számának lekérdezése
+        int oszlop1 = matrix2[0].length; // első sor oszlopainak száma
+        int oszlop2 = matrix2[1].length; // második sor oszlopainak száma
+        int oszlop3 = matrix2[2].length; // harmadik sor oszlopainak száma 
+        
+        String [][] termekek = {
+            {"Kenyer", "1000 Ft"},
+            {"Tej", "520 Ft"},
+            {"Parizer", "600 Ft"}
+        };
+        System.out.println("Termek neve: " + termekek[1][0] + " - " + termekek[1][1]);
+        
+        // listák - dinmikus tömbök
+        // Létrehozása
     }
     
 }
