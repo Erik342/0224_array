@@ -46,6 +46,38 @@ public class TombokListak {
         // tömb elemszáma, hossza
         int hossz = szamok.length;
         System.out.println("A szamok tomb hossza:" + hossz);
+        
+        /*
+        float []
+        int []
+        String []
+        dobule []
+        char []
+        object []
+        hool []
+        */
+        
+        String szo = "almafa";
+        // szo [3] = a
+        char[] szo_bontva = new char[6];
+        szo_bontva = szo.toCharArray();
+        
+        int [] t = new int[3];
+        t [0] = 3;
+        t [1] = 2;
+        t [2] = 9;
+        int eredmeny = t[0] + t[1] + t[2];
+        System.out.println("Osszeg:" + eredmeny);
+        
+        
+        // String  tömb
+        String [] szavak = new String[3];
+        szavak [0] = "alma";
+        szavak [1] = "korte";
+        szavak [2] = "eper";
+        
+        // Konkrét értékek az indexen
+        String[] szsvak2 = {"alma", "korte", "eper"};
     }
     
 }
